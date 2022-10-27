@@ -58,7 +58,7 @@
         {
             if (percentualBorracha < 1)
             {
-                Console.WriteLine("Compre outro apontador");
+                Console.WriteLine("Compre outro borracha");
                 return;
             }
             apagarTexto = true;
@@ -76,7 +76,7 @@
         {
             if (percentualBorracha < 1)
             {
-                Console.WriteLine("Compre outro apontador");
+                Console.WriteLine("Compre outro borracha");
                 return;
             }
             Console.WriteLine(_texto);

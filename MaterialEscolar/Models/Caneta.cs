@@ -80,13 +80,9 @@
                 Console.WriteLine("A caneta está estourada");
             }
             Console.WriteLine(_texto);
-            GastarTinta();
-        }
-
-        private void GastarTinta()
-        {
             PercentualCarga -= 10;
         }
+
         public void Exibir()
         {
             Console.WriteLine("cor: " + Cor);

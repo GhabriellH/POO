@@ -7,24 +7,15 @@ namespace Oficina
         static void Main(string[] args)
         {
             Pneu pneu = new Pneu(30, "Michelan");
-            pneu.Girar(5);
-            pneu.Girar(999);
-            pneu.Freiar(900);
-            pneu.Girar(999);
-            pneu.Freiar(900);
-            pneu.Girar(999);
-            pneu.Girar(999);
-            pneu.Freiar(900);
-            pneu.Girar(999);
-            pneu.Freiar(900);
-            pneu.Girar(999);
-            pneu.Girar(999);
-            pneu.Freiar(900);
-            pneu.Girar(999);
-            pneu.Freiar(900);
-            pneu.Girar(999);
-            pneu.Exibir();
-
+            
+            //pneu.Exibir();
+            //Pneu pneuMichelan = new Pneu(16, "Michelan");
+            Carro carro = new Carro("Fiat", "SUV");
+          
+                //carro.LigarDesligar();
+                carro.Acelerar(100);
+                carro.Frear(20);
+                carro.Exibir();
         }
     }
 }

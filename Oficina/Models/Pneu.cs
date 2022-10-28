@@ -85,7 +85,6 @@
 			if (PercentualBorracha <= 0)
 				Estourar();
 		}
-
 		private void Estourar()
 		{
 			Estourado = true;
@@ -93,14 +92,12 @@
 			PercentualBorracha = 0;
 			Rotacao = 0;
 		}
-
-		public void Freiar(int _abatimento)
-		{
-			Rotacao -= _abatimento;
-			GastarBorracha(_abatimento / 100);
-		}
-
-		public void Remendar()
+        public void Frear(int _abatimento)
+        {
+            Rotacao -= _abatimento;
+            GastarBorracha(_abatimento / 100.0);
+        }
+        public void Remendar()
 		{
 			Furado = false;
             Psi = 33;
